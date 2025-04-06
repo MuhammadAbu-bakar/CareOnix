@@ -13,7 +13,9 @@ const LoginPage = () => {
         <Banner title="My Account" path="Home > My Account"></Banner>
         <SignupForm></SignupForm>
       </Flex>
-    </div>
+
+      </div>
+    
   );
 }
 
