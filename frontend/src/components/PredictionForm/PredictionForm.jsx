@@ -174,11 +174,7 @@ const PredictionForm = () => {
                 ))}
               </SelectContent>
             </SelectRoot>
-            <Text
-              fontSize="sm"
-              color={"black"}
-              textAlign="left" // Aligns the text to the left
-            >
+            <Text fontSize="sm" color={"black"} textAlign="left">
               Select Year
             </Text>
 
@@ -200,7 +196,9 @@ const PredictionForm = () => {
             >
               <SelectLabel color={"black"}>Select Month</SelectLabel>
               <SelectTrigger>
-                <SelectValueText placeholder="Select Month" color={"black"} />
+                <SelectValueText 
+                  placeholder="Select Month" 
+                  color={"black"} />
               </SelectTrigger>
               <SelectContent>
                 {months.items.map((month) => (
