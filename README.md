@@ -50,7 +50,6 @@ Prerequisites
 
 - Node.js (v18+ recommended)
 - MongoDB instance (local or MongoDB Atlas)
-- Stripe or other payment gateway keys
 - Git
 
 
@@ -60,7 +59,7 @@ Project Setup
 1. Clone the repository
 
 
-git clone https://github.com/yourusername/careonix.git
+git clone repo
 cd careonix
 
 
