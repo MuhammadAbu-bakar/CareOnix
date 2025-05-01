@@ -83,10 +83,8 @@ familyData.status = "pending";
     }
 
     // Validate address
-    if (
-      typeof familyData.address !== "string" ||
-      familyData.address.length < 10
-    ) {
+    if (typeof familyData.address !== "string" ||familyData.address.length < 10)
+     {
       throw new Error("Address must be at least 10 characters long.");
     }
 
