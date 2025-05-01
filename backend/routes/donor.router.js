@@ -4,7 +4,7 @@ import {
   getDonorHistory,
 } from "../controllers/donor.controller.js";
 import express from "express";
-import { authenticate } from "../middlewares/authMiddleware.js"; // You can extract this middleware if needed
+import { authenticate } from "../middlewares/authMiddleware.js"; 
 const router = express.Router();
 
 // Get all donors (admin route or public route)
